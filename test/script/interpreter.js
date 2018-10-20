@@ -259,7 +259,7 @@ describe('Interpreter', function() {
   });
 
 
-  var getFlags = function getFlags(flagstr) {
+  var getFlags = function(flagstr) {
     var flags = 0;
     if (flagstr.indexOf('NONE') !== -1) {
       flags = flags | Interpreter.SCRIPT_VERIFY_NONE;

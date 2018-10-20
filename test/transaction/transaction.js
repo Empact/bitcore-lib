@@ -1111,7 +1111,7 @@ describe('Transaction', function() {
               script: new Script(),
               output: new Output({ script: new Script(), satoshis: 0 })
             });
-            input.clearSignatures = function () {};
+            input.clearSignatures = function() {};
             return input;
           });
           tx.inputs = inputSet.inputs;
